@@ -1,7 +1,6 @@
 header{box-sizing:border-box;padding-bottom: 20px;padding-top: 20px;
     background-color:lightyellow};
-    table{background-color:grey;
-    color:yellow}
+   nav{color:yellow}
     h3{color:purple}
     img.blackfriday{float:right}
     footer{background-color:lightyellow;
@@ -13,3 +12,14 @@ margin-left: 60px;
 margin-right:60px;
 text-align:center}
 p.footer{font-style: italic}
+img.der{float:right;
+margin-right:300px}
+img.izq{margin-left:50px}
+table{background-color:grey;
+color:yellow;
+}
+td{padding-left: 90px;
+    padding-right: 90px}
+article.izquierda{text-align:left}
+article.derecha{text-align:right}
+article.centro{text-align:center}

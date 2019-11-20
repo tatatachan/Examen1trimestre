@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="img/logo.png" alt=""></a><img src="img/ecommerce1.jpg" alt=""><img src="img/ecommerce2.jpg" alt="">
+        <a href="index.html"><img src="img/logo.png" alt=""></a><img class="izq"src="img/ecommerce1.jpg" alt=""><img class="der"src="img/ecommerce2.jpg" alt="">
     </header>
     <br>
     <hr>
@@ -20,14 +20,17 @@
         <img class="blackfriday" src="img/black_friday.png" alt="">
     <table>
         <tbody>
-        <tr> Sobremesa </tr>
-        <tr> Portatiles </tr>
-        <tr>Telefonía</tr>
-        <tr><a href="empresa.html"> Empresa </a></tr>
-        <tr><a href="contacto.html"> Contacto </a></tr>
+            <tr>
+            <td rowspan="3">
+         Sobremesa </td>
+        <td rowspan="3"> Portatiles </td>
+        <td rowspan="3">Telefonía</td>
+        <td rowspan="3"><a href="empresa.html"> Empresa </a></td>
+        <td rowspan="3"><a href="contacto.html"> Contacto </a></td>
+        </tr>
         </tbody>
     </table>
-    
+    <!-- La tabla permite establecer una distancia equivalente entre cada enlace al mismo tiempo que permite poner el mismo color y letra a todas las casillas-->
 </nav>
 <br>
 <h3>Tu tienda de confianza</h3>
@@ -45,7 +48,7 @@
 <br>
 <footer>
     <p class="footer">Autor:Héctor Ribas Esteve</p>
-    <p class="footer">Correo:hectorre1994@gmail.com</p>
+    <p class="footer">Correo:hectorre1994@gmail.com</p><!--La clase permite cambiar los dos primeros parrafos dejando aparte el tercero-->
     <br>
     <p>Ultima modificación:20/11/2019</p>
 </footer>
